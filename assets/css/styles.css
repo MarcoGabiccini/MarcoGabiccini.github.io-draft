@@ -32,7 +32,7 @@ button { font: inherit; }
 .primary-nav a:hover::after, .primary-nav a:focus-visible::after { right: 0; }
 .menu-toggle { display: none; border: 0; background: none; }
 
-.hero { padding: 48px 0 28px; display: grid; grid-template-columns: 1.28fr .72fr; grid-template-rows: 1fr auto; column-gap: clamp(38px, 5vw, 72px); }
+.hero { padding: 48px 0 28px; display: grid; grid-template-columns: 1.45fr .55fr; grid-template-rows: 1fr auto; column-gap: clamp(30px, 4vw, 56px); }
 .hero-copy { align-self: center; padding-bottom: 38px; position: relative; z-index: 2; }
 .eyebrow, .section-index { margin: 0 0 29px; font: 500 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; }
 .eyebrow { color: var(--accent); }
@@ -47,7 +47,7 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
 .button-primary:hover { background: var(--accent); border-color: var(--accent); }
 .text-link { display: inline-block; font-size: 13px; font-weight: 700; border-bottom: 1px solid currentColor; }
 .hero-portrait { align-self: center; margin: 0; }
-.portrait-frame { position: relative; width: min(100%, 310px); margin-inline: auto; isolation: isolate; }
+.portrait-frame { position: relative; width: min(100%, 160px); margin-inline: auto; isolation: isolate; }
 .portrait-frame::before { content: ""; position: absolute; inset: -13px 16px 16px -16px; z-index: -2; border: 1px solid var(--line); }
 .portrait-frame::after { content: ""; position: absolute; right: -18px; bottom: 17px; z-index: -1; width: 48%; height: 45%; background: var(--accent); }
 .portrait-frame img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: 50% 28%; filter: saturate(.74) contrast(1.03); }
@@ -161,7 +161,7 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
   .hero-actions { margin-top: 23px; gap: 20px; }
   .button { padding: 13px 16px; }
   .hero-actions, .archive-links { align-items: flex-start; flex-direction: column; }
-  .hero-portrait { margin-top: 20px; margin-bottom: 38px; width: min(100%, 300px); }
+  .hero-portrait { margin-top: 20px; margin-bottom: 38px; width: min(100%, 180px); }
   .statement, .research, .work, .teaching, .about { padding-top: 70px; padding-bottom: 70px; }
   .statement blockquote { font-size: 34px; }
   .research-link { grid-template-columns: 30px 1fr; padding: 23px; }
