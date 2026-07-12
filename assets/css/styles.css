@@ -85,7 +85,9 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
 .publication-card h3 { max-width: 550px; margin: auto 0 18px; font: 500 clamp(24px, 2.5vw, 37px)/1.12 var(--serif); letter-spacing: -.025em; }
 .publication-card p { margin: 0 0 24px; color: #abb3ad; font-size: 12px; }
 .publication-card.featured p { color: #ffe9e1; }
-.publication-card a { align-self: flex-start; font-size: 12px; font-weight: 700; border-bottom: 1px solid currentColor; }
+.publication-card a, .paper-status { align-self: flex-start; font-size: 12px; font-weight: 700; border-bottom: 1px solid currentColor; }
+.paper-status { color: #d2d8d2; }
+.publication-card.featured .paper-status { color: #fff4ef; }
 .archive-links { display: flex; align-items: center; gap: 30px; margin-top: 40px; }
 .button-light { color: #f0f2eb; }
 .button-light:hover { background: #f0f2eb; color: var(--dark); }
