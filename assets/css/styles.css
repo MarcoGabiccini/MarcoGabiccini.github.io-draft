@@ -54,6 +54,9 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
 .hero-meta { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); padding-top: 19px; border-top: 1px solid var(--line); }
 .hero-meta p { margin: 0; font-size: 13px; font-weight: 600; }
 .hero-meta span { display: block; margin-bottom: 3px; color: var(--muted); font: 400 10px var(--mono); text-transform: uppercase; letter-spacing: .08em; }
+.hero-cradle { position: relative; width: min(100%, 310px); margin: 30px auto 0; cursor: grab; }
+.hero-cradle.is-dragging { cursor: grabbing; }
+.hero-cradle canvas { display: block; }
 
 .statement { padding: 72px 0; background: var(--accent); color: #fff8ee; }
 .statement-grid { display: grid; grid-template-columns: .35fr 1.65fr .65fr; gap: 60px; align-items: start; }
